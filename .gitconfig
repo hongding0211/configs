@@ -1,0 +1,16 @@
+[user]
+	name = HongDing
+	email = dinghong@xiaohongshu.com
+[core]
+	excludesfile = /Users/hong/.gitignore_global
+	editor = nvim
+[commit]
+	template = /Users/hong/.stCommitMsg
+[alias]
+	st = status
+	co = checkout
+	df = diff
+	lg = log --graph --oneline	
+	bc = branch -vv
+	db = branch -D
+	cl = clone
