@@ -19,3 +19,4 @@
 	ad = add .
 	ps = push
 	rb = rebase	
+	fe = fetch
