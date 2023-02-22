@@ -1,11 +1,8 @@
 [user]
-	name = HongDing
-	email = dinghong@xiaohongshu.com
+	name = HongDing0211
+	email = keith.dh@hotmail.com
 [core]
-	excludesfile = /Users/hong/.gitignore_global
 	editor = nvim
-[commit]
-	template = /Users/hong/.stCommitMsg
 [alias]
 	st = status
 	co = checkout
@@ -20,3 +17,5 @@
 	ps = push
 	rb = rebase	
 	fc = fetch
+[push]
+	autoSetupRemote = true
