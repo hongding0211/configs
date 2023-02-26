@@ -17,5 +17,7 @@
 	ps = push
 	rb = rebase	
 	fc = fetch
+	rbc = rebase --continue
+	rba = rebase --abort
 [push]
 	autoSetupRemote = true
