@@ -16,7 +16,7 @@
 	ad = add .
 	ps = push
 	rb = rebase	
-	fc = fetch
+	fc = fetch --all
 	rbc = rebase --continue
 	rba = rebase --abort
 [push]
