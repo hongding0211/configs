@@ -15,9 +15,11 @@
 	ca = commit --amend
 	ad = add .
 	ps = push
+	pl = pull
 	rb = rebase	
 	fc = fetch --all
 	rbc = rebase --continue
 	rba = rebase --abort
+	rsh = reset --hard
 [push]
 	autoSetupRemote = true
