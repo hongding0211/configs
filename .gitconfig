@@ -21,5 +21,6 @@
 	rbc = rebase --continue
 	rba = rebase --abort
 	rsh = reset --hard
+	cp = cherry-pick
 [push]
 	autoSetupRemote = true
