@@ -1,5 +1,8 @@
 [git_status]
 stashed = ""
 
+[nodejs]
+format = "[$symbol($version )]($style)"
+
 [package]
 disabled = true
