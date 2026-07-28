@@ -17,6 +17,7 @@ fpath=(
   "/opt/homebrew/share/zsh-completions"
   $fpath
 )
+cdpath=(. ~)
 
 # Interactive completions and prefix-aware history search
 zstyle ':autocomplete:*' ignored-input '*'
