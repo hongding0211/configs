@@ -21,7 +21,8 @@ fpath=(
 # Interactive completions and prefix-aware history search
 zstyle ':autocomplete:*' ignored-input '*'
 [ -s "$HOME/zsh-autocomplete/zsh-autocomplete.plugin.zsh" ] && source "$HOME/zsh-autocomplete/zsh-autocomplete.plugin.zsh"
-bindkey '^I' menu-select
+bindkey '^I' list-choices
+bindkey -M menuselect '^I' redisplay
 
 # fnm
 FNM_PATH="/opt/homebrew/opt/fnm/bin"
